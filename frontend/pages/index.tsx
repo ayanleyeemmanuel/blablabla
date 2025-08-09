@@ -13,13 +13,15 @@ export default function Home() {
         <div className="mt-10 flex flex-col sm:flex-row gap-4">
           <Link
             href="/get-started"
-            className="px-8 py-3 rounded-md bg-blue-600 text-white dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
+            aria-label="Get Started"
+            className="px-8 py-3 rounded-md bg-blue-700 text-white dark:bg-blue-600 hover:bg-blue-800 dark:hover:bg-blue-700 transition-colors"
           >
             Get Started
           </Link>
           <Link
             href="/wordpress"
-            className="px-8 py-3 rounded-md border border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            aria-label="One-click WordPress"
+            className="px-8 py-3 rounded-md border border-gray-400 dark:border-gray-600 text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           >
             One-click WordPress
           </Link>
